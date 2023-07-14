@@ -1,0 +1,30 @@
+:root{
+    --backgroundColor: linear-gradient(90deg, rgba(65,170,175,1) 35%, rgba(54,75,102,1) 100%);;
+}
+body{
+    background: var(--backgroundColor);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#wrapper {
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 5%;
+    background-color: var(--fondo2);
+}
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    max-width: 90%;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.const{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
